@@ -1,6 +1,6 @@
 /**
  * This program logs data from the Arduino ADC to a binary file.
- *
+` *
  * Samples are logged at regular intervals. Each Sample consists of the ADC
  * values for the analog pins defined in the PIN_LIST array.  The pins numbers
  * may be in any order.
@@ -22,12 +22,13 @@
 #ifdef __AVR__
 #include <SPI.h>
 #include <SdFat.h>
-#include <SdFatUtil.h>
+#include "SdFatUtil.h"
 #include "AnalogBinLogger.h"
 //------------------------------------------------------------------------------
 // Analog pin number list for a sample.  Pins may be in any order and pin
 // numbers may be repeated.
-const uint8_t PIN_LIST[] = {5,6,7}; // Circuit du payload
+const uint8_t PIN_LIST[] = {0, 1, 2}; // Circuit du payload
+const uint8_t TEC_PIN = 3;
 //------------------------------------------------------------------------------
 // Sample rate in samples per second.
 const float SAMPLE_RATE = 8000;  // Must be 0.25 or greater. Maximum 40kHz 
@@ -70,7 +71,7 @@ uint8_t const ADC_REF = (1 << REFS0);  // Vcc Reference.
 // The program creates a contiguous file with FILE_BLOCK_COUNT 512 byte blocks.
 // This file is flash erased using special SD commands.  The file will be
 // truncated if logging is stopped early.
-const uint32_t FILE_BLOCK_COUNT = 256000;
+const uint32_t FILE_BLOCK_COUNT = 64000;
 
 // log file base name.  Must be six characters or less.
 #define FILE_BASE_NAME "analog"
@@ -83,7 +84,7 @@ const uint32_t FILE_BLOCK_COUNT = 256000;
 // Digital pin to indicate an error, set to -1 if not used.
 // The led blinks for fatal errors. The led goes on solid for SD write
 // overrun errors and logging continues.
-const int8_t ERROR_LED_PIN = 13;
+const int8_t ERROR_LED_PIN = 8;
 
 // SD chip select pin.
 const uint8_t SD_CS_PIN = 10; //Pour fitter avec le circuit du payload
@@ -402,20 +403,6 @@ void adcInit(metadata_t* meta) {
   meta->sampleInterval = ticks;
   meta->cpuFrequency = F_CPU;
   float sampleRate = (float)meta->cpuFrequency/meta->sampleInterval;
-  Serial.print(F("Sample pins:"));
-  for (int i = 0; i < meta->pinCount; i++) {
-    Serial.print(' ');
-    Serial.print(meta->pinNumber[i], DEC);
-  }
-  Serial.println();
-  Serial.print(F("ADC bits: "));
-  Serial.println(meta->recordEightBits ? 8 : 10);
-  Serial.print(F("ADC clock kHz: "));
-  Serial.println(meta->adcFrequency/1000);
-  Serial.print(F("Sample Rate: "));
-  Serial.println(sampleRate);
-  Serial.print(F("Sample interval usec: "));
-  Serial.println(1000000.0/sampleRate, 4);
 }
 //------------------------------------------------------------------------------
 // enable ADC and timer1 interrupts
@@ -456,8 +443,6 @@ void logData() {
   // Allocate extra buffer space.
   block_t block[BUFFER_BLOCK_COUNT];
 
-  Serial.println();
-
   // Initialize ADC and timer1.
   adcInit((metadata_t*) &block[0]);
 
@@ -484,10 +469,7 @@ void logData() {
     //}
   //}
   // Create new file.
-  Serial.println(F("Creating new file"));
   binFile.close();
-  //if (!binFile.createContiguous(sd.vwd(),
-  //                              TMP_FILE_NAME, 512 * FILE_BLOCK_COUNT)) {
   if (!binFile.createContiguous(sd.vwd(),
                                 binName, 512 * FILE_BLOCK_COUNT)) {
     error("createContiguous failed");
@@ -503,7 +485,6 @@ void logData() {
   }
 
   // Flash erase all data in the file.
-  Serial.println(F("Erasing all data"));
   uint32_t bgnErase = bgnBlock;
   uint32_t endErase;
   while (bgnErase < endBlock) {
@@ -539,10 +520,7 @@ void logData() {
   }
   // Give SD time to prepare for big write.
   delay(1000);
-  Serial.println(F("Logging - type any character to stop"));
-  //digitalWrite(LEDlog, HIGH);
   // Wait for Serial Idle.
-  Serial.flush();
   delay(10);
   uint32_t bn = 1;
   uint32_t t0 = millis();
@@ -591,68 +569,16 @@ void logData() {
     if (timerError) {
       error("Missed timer event - rate too high");
     }
-    
-    //time = millis() - timer;
-    //if (Serial.available()) {
-     //if (time >= 60000) { 
-      // Stop ISR calls.
-      //timer = millis();
-      //adcStop();
-      //if (isrBuf != 0 && isrBuf->count >= PIN_COUNT) {
-        // Truncate to last complete sample.
-        //isrBuf->count = PIN_COUNT*(isrBuf->count/PIN_COUNT);
-        // Put buffer in full queue.
-        //fullQueue[fullHead] = isrBuf;
-        //fullHead = queueNext(fullHead);
-        //isrBuf = 0;
-      //}
-      //if (fullHead == fullTail) {
-        //break;
-      //}
-    //}
-    
-    // read the state of the switch into a local variable:
-    //reading = digitalRead(buttonPin);
 
-    // check to see if you just pressed the button 
-    // (i.e. the input went from LOW to HIGH),  and you've waited 
-    // long enough since the last press to ignore any noise:  
-
-    // If the switch changed, due to noise or pressing:
-    //if (reading != lastButtonState) {
-      // reset the debouncing timer
-      //lastDebounceTime = millis();
-    //} 
-  
-    //if ((millis() - lastDebounceTime) > debounceDelay) {
-      // whatever the reading is at, it's been there for longer
-      // than the debounce delay, so take it as the actual current state:
-
-      // if the button state has changed:
-      //if (reading != buttonState) {
-        //buttonState = reading;
-
-        // only toggle the LED if the new button state is HIGH
-        //if (buttonState == HIGH) {
-          // Stop ISR calls.
-          //adcStop();
-          //if (isrBuf != 0 && isrBuf->count >= PIN_COUNT) {
-            // Truncate to last complete sample.
-            //isrBuf->count = PIN_COUNT*(isrBuf->count/PIN_COUNT);
-            // Put buffer in full queue.
-            //fullQueue[fullHead] = isrBuf;
-            //fullHead = queueNext(fullHead);
-            //isrBuf = 0;
-          //}
-          //if (fullHead == fullTail) {
-            //break;
-          //}
-        //}
-      //}
-    //}
-    // save the reading.  Next time through the loop,
-    // it'll be the lastButtonState:
-    //lastButtonState = reading;
+    uint16_t tec_value = analogRead(TEC_PIN);
+    if (tec_value > 600)
+    {
+      analogWrite(5, 50);
+    }
+    else if (tec_value < 450)
+    {
+      analogWrite(5, 255);
+    }
   }
   
   if (!sd.card()->writeStop()) {
@@ -660,7 +586,6 @@ void logData() {
   }
   // Truncate file if recording stopped early.
   if (bn != FILE_BLOCK_COUNT) {
-    Serial.println(F("Truncating file"));
     if (!binFile.truncate(512L * bn)) {
       error("Can't truncate file");
     }
@@ -668,20 +593,6 @@ void logData() {
   if (!binFile.rename(sd.vwd(), binName)) {
     error("Can't rename file");
   }
-  Serial.print(F("File renamed: "));
-  Serial.println(binName);
-  Serial.print(F("Max block write usec: "));
-  Serial.println(maxLatency);
-  Serial.print(F("Record time sec: "));
-  Serial.println(0.001*(t1 - t0), 3);
-  Serial.print(F("Sample count: "));
-  Serial.println(count/PIN_COUNT);
-  Serial.print(F("Samples/sec: "));
-  Serial.println((1000.0/PIN_COUNT)*count/(t1-t0));
-  Serial.print(F("Overruns: "));
-  Serial.println(overruns);
-  Serial.println(F("Done"));
-  //digitalWrite(LEDlog, LOW);
 }
 
 
@@ -690,16 +601,9 @@ void setup(void) {
   if (ERROR_LED_PIN >= 0) {
     pinMode(ERROR_LED_PIN, OUTPUT);
   }
-  Serial.begin(9600);
-
   // Read the first sample pin to init the ADC.
   analogRead(PIN_LIST[0]);
-  //pinMode(buttonPin, INPUT);
-  //pinMode(LEDlog, OUTPUT);
   
-  Serial.print(F("FreeRam: "));
-  Serial.println(FreeRam());
-
   // initialize file system.
   if (!sd.begin(SD_CS_PIN, SPI_FULL_SPEED)) {
     sd.initErrorPrint();
