@@ -85,6 +85,7 @@ const uint32_t FILE_BLOCK_COUNT = 64000;
 // The led blinks for fatal errors. The led goes on solid for SD write
 // overrun errors and logging continues.
 const int8_t ERROR_LED_PIN = 8;
+const int8_t DEBUG_LED_PIN = 9;
 
 // SD chip select pin.
 const uint8_t SD_CS_PIN = 10; //Pour fitter avec le circuit du payload
@@ -531,6 +532,8 @@ void logData() {
 
   // Start logging interrupts.
   adcStart();
+  uint8_t toggle = 0;
+  digitalWrite(DEBUG_LED_PIN, HIGH);
   while (1) {
     if (fullHead != fullTail) {
       // Get address of block to write.
@@ -579,6 +582,17 @@ void logData() {
     {
       analogWrite(5, 255);
     }
+    if(toggle)
+    {
+      digitalWrite(DEBUG_LED_PIN, HIGH);
+      toggle = 0;
+    }
+    else
+    {
+      digitalWrite(DEBUG_LED_PIN, LOW);
+      toggle = 1;
+    }
+    
   }
   
   if (!sd.card()->writeStop()) {
@@ -600,6 +614,7 @@ void logData() {
 void setup(void) {
   if (ERROR_LED_PIN >= 0) {
     pinMode(ERROR_LED_PIN, OUTPUT);
+    pinMode(DEBUG_LED_PIN, OUTPUT);
   }
   // Read the first sample pin to init the ADC.
   analogRead(PIN_LIST[0]);
