@@ -27,9 +27,9 @@
 //------------------------------------------------------------------------------
 // Analog pin number list for a sample.  Pins may be in any order and pin
 // numbers may be repeated.
-const uint8_t PIN_LIST[] = {0, 1, 2}; // Circuit du payload
-const uint8_t TEC_PIN = 3;
-const uint8_t PWM_PIN = 5;
+const int8_t PIN_LIST[] = {0, 1, 2}; // Circuit du payload
+const int8_t THERM_PIN = 3;
+const int8_t PWM_PIN = 5;
 //------------------------------------------------------------------------------
 // Sample rate in samples per second.
 const float SAMPLE_RATE = 8000;  // Must be 0.25 or greater. Maximum 40kHz 
@@ -89,7 +89,7 @@ const int8_t ERROR_LED_PIN = 8;
 const int8_t DEBUG_LED_PIN = 9;
 
 // SD chip select pin.
-const uint8_t SD_CS_PIN = 10; //Pour fitter avec le circuit du payload
+const int8_t SD_CS_PIN = 10; //Pour fitter avec le circuit du payload
 //------------------------------------------------------------------------------
 // Buffer definitions.
 //
@@ -135,7 +135,7 @@ const uint8_t QUEUE_DIM = 32;  // Must be a power of two!
 //int buttonState = LOW;             // the current reading from the input pin
 //int lastButtonState = LOW;   // the previous reading from the input pin
 //int reading = LOW;
-unsigned long time = 0;
+//unsigned long time = 0;
 unsigned long timer = 0;
 // the following variables are long's because the time, measured in miliseconds,
 // will quickly become a bigger number than can be stored in an int.
@@ -573,13 +573,13 @@ void logData() {
       error("Missed timer event - rate too high");
     }
     //digitalWrite(DEBUG_LED_PIN, HIGH);
-    //uint16_t tec_value = analogRead(TEC_PIN);
-    if (analogRead(TEC_PIN) > 550)
+    //uint16_t tec_value = analogRead(THERM_PIN);
+    if (analogRead(THERM_PIN) > 550)
     {
       digitalWrite(DEBUG_LED_PIN, HIGH);
       analogWrite(PWM_PIN, 50);
     }
-    else if (analogRead(TEC_PIN) < 450)
+    else if (analogRead(THERM_PIN) < 450)
     {
       digitalWrite(DEBUG_LED_PIN, LOW);
       analogWrite(PWM_PIN, 255);
@@ -615,11 +615,12 @@ void logData() {
 
 //------------------------------------------------------------------------------
 void setup(void) {
+  pinMode(THERM_PIN, INPUT);
+  pinMode(PWM_PIN, OUTPUT);
+  //pinMode(PIN_LIST[0], INPUT);
   if (ERROR_LED_PIN >= 0) {
     pinMode(ERROR_LED_PIN, OUTPUT);
     pinMode(DEBUG_LED_PIN, OUTPUT);
-    pinMode(TEC_PIN, INPUT);
-    pinMode(PWM_PIN, OUTPUT);
   }
   // Read the first sample pin to init the ADC.
   analogRead(PIN_LIST[0]);
