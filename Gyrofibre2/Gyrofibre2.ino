@@ -29,6 +29,7 @@
 // numbers may be repeated.
 const uint8_t PIN_LIST[] = {0, 1, 2}; // Circuit du payload
 const uint8_t TEC_PIN = 3;
+const uint8_t PWM_PIN = 5;
 //------------------------------------------------------------------------------
 // Sample rate in samples per second.
 const float SAMPLE_RATE = 8000;  // Must be 0.25 or greater. Maximum 40kHz 
@@ -279,7 +280,7 @@ ISR(TIMER1_COMPB_vect) {
 #define error(msg) errorFlash(F(msg))
 //------------------------------------------------------------------------------
 void errorFlash(const __FlashStringHelper* msg) {
-  sd.errorPrint(msg);
+  //sd.errorPrint(msg);
   fatalBlink();
 }
 //------------------------------------------------------------------------------
@@ -533,7 +534,6 @@ void logData() {
   // Start logging interrupts.
   adcStart();
   uint8_t toggle = 0;
-  digitalWrite(DEBUG_LED_PIN, HIGH);
   while (1) {
     if (fullHead != fullTail) {
       // Get address of block to write.
@@ -572,17 +572,20 @@ void logData() {
     if (timerError) {
       error("Missed timer event - rate too high");
     }
-
-    uint16_t tec_value = analogRead(TEC_PIN);
-    if (tec_value > 600)
+    //digitalWrite(DEBUG_LED_PIN, HIGH);
+    //uint16_t tec_value = analogRead(TEC_PIN);
+    if (analogRead(TEC_PIN) > 550)
     {
-      analogWrite(5, 50);
+      digitalWrite(DEBUG_LED_PIN, HIGH);
+      analogWrite(PWM_PIN, 50);
     }
-    else if (tec_value < 450)
+    else if (analogRead(TEC_PIN) < 450)
     {
-      analogWrite(5, 255);
+      digitalWrite(DEBUG_LED_PIN, LOW);
+      analogWrite(PWM_PIN, 255);
     }
-    if(toggle)
+    /*
+    if(toggle == 100)
     {
       digitalWrite(DEBUG_LED_PIN, HIGH);
       toggle = 0;
@@ -590,9 +593,9 @@ void logData() {
     else
     {
       digitalWrite(DEBUG_LED_PIN, LOW);
-      toggle = 1;
+      toggle++;
     }
-    
+    */
   }
   
   if (!sd.card()->writeStop()) {
@@ -615,6 +618,8 @@ void setup(void) {
   if (ERROR_LED_PIN >= 0) {
     pinMode(ERROR_LED_PIN, OUTPUT);
     pinMode(DEBUG_LED_PIN, OUTPUT);
+    pinMode(TEC_PIN, INPUT);
+    pinMode(PWM_PIN, OUTPUT);
   }
   // Read the first sample pin to init the ADC.
   analogRead(PIN_LIST[0]);
