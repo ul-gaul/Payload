@@ -1,0 +1,820 @@
+VisualGDB/Release/Assert.o: Assert.cpp \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/mbed.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_preprocessor.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/platform.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstddef \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\c++config.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\os_defines.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\cpu_defines.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdlib \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\std_abs.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdio \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstring \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_locale.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\string.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_retarget.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\fcntl.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_default_fcntl.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stat.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\time.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\time.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\syslimits.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/objects.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/cmsis.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/stm32f4xx.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/stm32f407xx.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/cmsis/core_cm4.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/cmsis/TARGET_CORTEX_M/cmsis_compiler.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/cmsis/TARGET_CORTEX_M/TOOLCHAIN_GCC/cmsis_gcc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/system_stm32f4xx.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_conf.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_def.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/stm32f4xx.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32_hal_legacy.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_gpio.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_gpio_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dma.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dma_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cortex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_adc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_adc_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_can.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_crc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cryp.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dma2d.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dac.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dac_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dcmi.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dcmi_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_eth.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_flash.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_flash_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_flash_ramfunc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sram.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_fsmc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_nor.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_nand.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sdram.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_hash.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2c.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2c_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2s.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2s_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_iwdg.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_ltdc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rng.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rtc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rtc_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sai.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sd.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_sdmmc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_spi.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_usart.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_irda.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_smartcard.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pcd.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_usb.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pcd_ex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_hcd.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dsi.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_qspi.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cec.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_fmpi2c.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_spdifrx.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dfsdm.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_lptim.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_mmc.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/cmsis_nvic.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/PortNames.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/TARGET_DISCO_F407VG/PeripheralNames.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/TARGET_DISCO_F407VG/PinNames.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/PinNamesTypes.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/common_objects.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/gpio_object.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/PortNames.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_application.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\math.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cmath \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cpp_type_traits.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\ext\type_traits.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\math.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_error.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_interface.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_debug.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/platform.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/gpio_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_critical.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdbool.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalInOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/BusIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/PlatformMutex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/NonCopyable.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/BusOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/BusInOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalInOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PortIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/port_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PortInOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PortOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/AnalogIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/analogin_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/SingletonPtr.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\new \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\exception \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_ptr.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_defines.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cxxabi_init_exception.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\typeinfo \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\hash_bytes.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\nested_exception.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\move.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\concept_check.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\type_traits \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/AnalogOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/analogout_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PwmOut.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/pwmout_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_sleep.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/sleep_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Serial.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Stream.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileLike.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileBase.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileHandle.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_poll.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdarg \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SerialBase.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/serial_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/buffer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/dma_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/PlatformMutex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SPI.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/spi_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CThunk.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CircularBuffer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FunctionPointer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Transaction.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SPISlave.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/I2C.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/i2c_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/I2CSlave.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Ethernet.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/CAN.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/RawSerial.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SerialBase.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/serial_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/UARTSerial.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileHandle.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/InterruptIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/gpio_irq_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CircularBuffer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/FlashIAP.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Timer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/ticker_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Ticker.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/TimerEvent.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/us_ticker_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/lp_ticker_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Timeout.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Ticker.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/LowPowerTimeout.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/LowPowerTicker.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/LowPowerTimer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Timer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/LocalFileSystem.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/InterruptIn.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_wait_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/sleep_api.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_sleep.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_rtc_time.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_poll.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/ATCmdParser.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileSystemHandle.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/DirHandle.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileHandle.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/DirHandle.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CriticalSectionLock.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/DeepSleepLock.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include-fixed\limits.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include-fixed\syslimits.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\limits.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FunctionPointer.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBSerial/USBSerial.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBSerial/USBCDC.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBEndpoints.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/targets/TARGET_STM/USBEndpoints_STM32.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDescriptor.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDevice_Types.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDevice.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDevice_Types.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBHAL.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBEndpoints.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBSerial/CircBuffer.h
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/mbed.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_preprocessor.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/platform.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstddef:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\c++config.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\os_defines.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\cpu_defines.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdlib:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\std_abs.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdio:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstring:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_locale.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\string.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_retarget.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\fcntl.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_default_fcntl.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stat.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\time.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\time.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\syslimits.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/objects.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/cmsis.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/stm32f4xx.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/stm32f407xx.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/cmsis/core_cm4.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/cmsis/TARGET_CORTEX_M/cmsis_compiler.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/cmsis/TARGET_CORTEX_M/TOOLCHAIN_GCC/cmsis_gcc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/system_stm32f4xx.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_conf.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_def.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/stm32f4xx.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32_hal_legacy.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rcc_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_gpio.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_gpio_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dma.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dma_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cortex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_adc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_adc_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_can.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_crc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cryp.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dma2d.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dac.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dac_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dcmi.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dcmi_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_eth.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_flash.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_flash_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_flash_ramfunc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sram.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_fsmc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_nor.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_nand.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sdram.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_hash.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2c.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2c_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2s.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_i2s_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_iwdg.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_ltdc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pwr_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rng.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rtc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_rtc_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sai.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_sd.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_sdmmc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_spi.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_tim_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_uart.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_usart.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_irda.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_smartcard.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pcd.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_usb.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pcd_ex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_hcd.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dsi.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_qspi.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_cec.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_fmpi2c.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_spdifrx.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_dfsdm.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_lptim.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_mmc.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/device/cmsis_nvic.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/PortNames.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/TARGET_DISCO_F407VG/PeripheralNames.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/TARGET_STM32F407xG/TARGET_DISCO_F407VG/PinNames.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/PinNamesTypes.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/TARGET_STM32F4/common_objects.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/gpio_object.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/targets/TARGET_STM/PortNames.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_application.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\math.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cmath:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cpp_type_traits.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\ext\type_traits.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\math.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_error.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_interface.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_debug.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/platform.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/gpio_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_critical.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdbool.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalInOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/BusIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/PlatformMutex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/NonCopyable.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/BusOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/BusInOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/DigitalInOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PortIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/port_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PortInOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PortOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/AnalogIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/analogin_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/SingletonPtr.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\new:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\exception:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_ptr.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_defines.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cxxabi_init_exception.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\typeinfo:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\hash_bytes.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\nested_exception.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\move.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\concept_check.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\type_traits:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/AnalogOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/analogout_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/PwmOut.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/pwmout_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_sleep.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/sleep_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Serial.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Stream.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileLike.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileBase.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileHandle.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_poll.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdarg:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SerialBase.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/serial_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/buffer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/dma_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/PlatformMutex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SPI.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/spi_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CThunk.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CircularBuffer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FunctionPointer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Transaction.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SPISlave.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/I2C.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/i2c_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/I2CSlave.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Ethernet.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/CAN.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/RawSerial.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/SerialBase.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/serial_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/UARTSerial.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileHandle.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/InterruptIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/gpio_irq_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CircularBuffer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/FlashIAP.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Timer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/ticker_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Ticker.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/TimerEvent.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/us_ticker_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/lp_ticker_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Timeout.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Ticker.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/LowPowerTimeout.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/LowPowerTicker.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/LowPowerTimer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/Timer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/LocalFileSystem.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/drivers/InterruptIn.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_wait_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/hal/sleep_api.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_sleep.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_rtc_time.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_poll.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/ATCmdParser.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileSystemHandle.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/DirHandle.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FileHandle.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/DirHandle.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/CriticalSectionLock.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/DeepSleepLock.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include-fixed\limits.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include-fixed\syslimits.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\limits.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/Callback.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/FunctionPointer.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBSerial/USBSerial.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBSerial/USBCDC.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBEndpoints.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/targets/TARGET_STM/USBEndpoints_STM32.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDescriptor.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDevice_Types.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDevice.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBDevice_Types.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBHAL.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBDevice/USBEndpoints.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/features/unsupported/USBDevice/USBSerial/CircBuffer.h:

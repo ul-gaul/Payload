@@ -10,7 +10,7 @@
 #define TEMPERATURENOMINAL 25   
 // how many samples to take and average, more takes longer
 // but is more 'smooth'
-#define NUMSAMPLES 5
+#define NUMSAMPLES 100
 // The beta coefficient of the thermistor (usually 3000-4000)
 #define BCOEFFICIENT 3900
 // the value of the 'other' resistor
@@ -70,28 +70,28 @@ void loop(void) {
   Tmeas = 1.0 / steinhart;                 // Invert
   Tmeas -= 273.15;                         // convert to C
 
-  // _____________________ TEC CONTROLLER ________________________
-   float sendCurrent;
-   float Err = Tmeas - float(TREF);
-   
-   if( Err > DELTA)    // cooling at max  - positive voltage
-       {
-          sendCurrent = Imax; 
-       }
-        
-   if(Err < DELTA)   // cooling at fine tuning
-       {
-          // PID or other control
-          sendCurrent =  fscale( 0, DELTA, 0, Imax, Err, 0);        // Map Error from (0:DELTA) to (0:Imax) scale. Last argument is the map Curve (0 = linear).    
-          constrain(sendCurrent, 0, Imax);
-       }
-
-   // _____________ Send Current ________________
-   sendBits = int(sendCurrent * 1023/1000);                               // CONVERT Current to Bits (sendCurrent in mA) [Ex: B = I * 4096/1000] for 1000mA = 4096 bits
-   // analogWrite(DRIVERPIN, sendBits);
-
-   Serial.print("Error ");
-   Serial.print(Err);
+//  // _____________________ TEC CONTROLLER ________________________
+//   float sendCurrent;
+//   float Err = Tmeas - float(TREF);
+//   
+//   if( Err > DELTA)    // cooling at max  - positive voltage
+//       {
+//          sendCurrent = Imax; 
+//       }
+//        
+//   if(Err < DELTA)   // cooling at fine tuning
+//       {
+//          // PID or other control
+//          sendCurrent =  fscale( 0, DELTA, 0, Imax, Err, 0);        // Map Error from (0:DELTA) to (0:Imax) scale. Last argument is the map Curve (0 = linear).    
+//          constrain(sendCurrent, 0, Imax);
+//       }
+//
+//   // _____________ Send Current ________________
+//   sendBits = int(sendCurrent * 1023/1000);                               // CONVERT Current to Bits (sendCurrent in mA) [Ex: B = I * 4096/1000] for 1000mA = 4096 bits
+//   // analogWrite(DRIVERPIN, sendBits);
+//
+//   Serial.print("Error ");
+//   Serial.print(Err);
    Serial.print("  PD : ");
    Serial.print(analogRead(PHOTOPIN));
    Serial.print("   T : ");

@@ -1,0 +1,7 @@
+﻿  System.OperationCanceledException
+  System.OperationCanceledException: The operation was canceled.
+     at oh1.f_4(ck1 a)
+     at p52..ctor(VisualGDBProjectSettings2 b, mc c, IDELevelProjectInfoForBuilding d, uz a)
+     at VisualGDB.MSBuild.BuildHelper..ctor(String vgdbSettingsFile, IDELevelProjectInfoForBuilding info)
+     at Sysprogs.build.tasks.shared.LaunchVisualGDB.Execute()
+C:\Program Files (x86)\Sysprogs\VisualGDB\MSBuild\Targets\external.targets(5,3): error : The operation was canceled.

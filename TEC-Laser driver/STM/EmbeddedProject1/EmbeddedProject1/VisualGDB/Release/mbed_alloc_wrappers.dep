@@ -1,0 +1,191 @@
+VisualGDB/Release/mbed_alloc_wrappers.o: \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_alloc_wrappers.cpp \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_mem_trace.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_stats.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_preprocessor.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/SingletonPtr.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\new \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\c++config.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\os_defines.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\cpu_defines.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\exception \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_ptr.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_defines.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cxxabi_init_exception.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\typeinfo \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\hash_bytes.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\nested_exception.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\move.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\concept_check.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\type_traits \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/PlatformMutex.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/NonCopyable.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_locale.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\string.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdlib \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h \
+ d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\std_abs.h
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_mem_trace.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_stats.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_toolchain.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_preprocessor.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/SingletonPtr.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\new:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\c++config.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\os_defines.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\arm-eabi\thumb\cortex_m4\bits\cpu_defines.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\exception:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_ptr.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\exception_defines.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\cxxabi_init_exception.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\typeinfo:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\hash_bytes.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\nested_exception.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\move.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\concept_check.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\type_traits:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_assert.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/PlatformMutex.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/NonCopyable.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\string.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_locale.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\string.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\cstdlib:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\include\c++\7.2.0\bits\std_abs.h:

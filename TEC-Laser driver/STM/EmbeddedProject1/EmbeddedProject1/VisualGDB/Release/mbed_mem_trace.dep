@@ -1,0 +1,113 @@
+VisualGDB/Release/mbed_mem_trace.o: \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_mem_trace.c \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_mem_trace.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_critical.h \
+ d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdbool.h
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_newlib_version.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stddef.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdarg.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdio.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\endian.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_endian.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\select.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_sigset.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timeval.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\timespec.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_timespec.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_pthreadtypes.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\types.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\stdio.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_mem_trace.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h:
+
+d:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h:
+
+C:/Users/MonteaCristo/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.mbed/platform/mbed_critical.h:
+
+d:\sysgcc\arm-eabi\lib\gcc\arm-eabi\7.2.0\include\stdbool.h:

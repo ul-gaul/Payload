@@ -1,0 +1,1 @@
+﻿D:\Microsoft Visual Studio\Common7\IDE\VC\VCTargets\Platforms\VisualGDB\Platform.default.props(2,4): error MSB4019: The imported project "C:\MSBuild\SysprogsPlatform.default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
